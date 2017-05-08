@@ -1,0 +1,17 @@
+Android Studio
+
+	Baixar pluggin -> Android Drawable Importer (Settings->Plugins->Browse)
+
+Layouts
+	ViewGroup
+
+		Linear Layout
+			> Horizontal
+			> Vertical
+
+		Relative View
+
+		Frame Layout
+
+		Table Layout
+			> Row
