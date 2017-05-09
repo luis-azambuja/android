@@ -1,3 +1,14 @@
 <resources>
-    <string name="app_name">Teste APP</string>
+    <string name="app_name">Aula 02</string>
+
+    <!-- Tela de Login -->
+    <string name="login_login">LOGIN</string>
+    <string name="login_usuario">Nome</string>
+    <string name="login_botao">Logar</string>
+
+    <!-- Tela de Fundo -->
+    <string name="tela_texto_inicial">DÕE</string>
+    <string name="tela_texto_grande">DÕE SANGUE DÕE SANGUE DÕE SANGUE DÕE SANGUE DÕE SANGUE DÕE SANGUE DÕE SANGUE DÕE SANGUE </string>
+    <string name="tela_texto_pequeno">DÕE SANGUE DÕE SANGUE DÕE SANGUE DÕE SANGUE DÕE SANGUE DÕE SANGUE </string>
+
 </resources>

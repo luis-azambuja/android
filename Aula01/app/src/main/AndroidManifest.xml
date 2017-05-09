@@ -9,13 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ExemploAula01" android:screenOrientation="sensorPortrait">
+
+        <!-- Login -->
+        <activity
+            android:name=".ActivityExemploAula02"
+            android:screenOrientation="sensorPortrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Segunda tela -->
+        <activity android:name=".ActivityExemploAula022"
+            android:parentActivityName="app.com.aula01.ActivityExemploAula02"></activity>
     </application>
 
 </manifest>
