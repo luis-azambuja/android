@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Aula02</string>
+
+    <string name="user_name">Android Oreo</string>
+    <string name="user_description">O melhor Android da história, nele é possível viajar na velocidade da luz.</string>
+    <string name="user_academy">Não preciso estudar.</string>
+    <string name="user_work">Não trabalho, dou trabalho.</string>
+
+    <string name="profile_new_post">New Post</string>
+    <string name="profile_update_info">Update Info</string>
+    <string name="profile_activity_log">Activity Log</string>
+    <string name="profile_more">...</string>
+    <string name="profile_friends">Friends</string>
+    <string name="profile_messenger">Messenger</string>
+
+</resources>
