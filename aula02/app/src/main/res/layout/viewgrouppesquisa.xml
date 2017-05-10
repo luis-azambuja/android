@@ -8,8 +8,8 @@
     <ImageView
         android:id="@+id/imageViewToolbar1"
         android:layout_width="30dp"
-        android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/ic_launcher" />
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/back" />
 
     <EditText
         android:id="@+id/editText"
@@ -23,6 +23,6 @@
     <ImageView
         android:id="@+id/imageViewToolbar2"
         android:layout_width="30dp"
-        android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/ic_launcher" />
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/engrenagem" />
 </LinearLayout>
