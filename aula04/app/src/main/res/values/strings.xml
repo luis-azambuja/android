@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">aula04</string>
+
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="title">Meu Click</string>
+    <string name="description">Vou te dibrei.</string>
+
+    <string-array name="mArray">
+        <item>Item 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+        <item>Item 4</item>
+    </string-array>
+
+    <string name="ronaldinho_title">Eu te Dibrei</string>
+    <string name="ronaldinho_description">Dibrado</string>
+    <string name="ronaldinho_description2">Dibrado </string>
+</resources>

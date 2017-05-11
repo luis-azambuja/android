@@ -15,4 +15,12 @@ Layouts
 
 		Table Layout
 			> Row
-OctoTree
+OctoTree (Extensão)
+
+Biblia: https://developer.android.com/
+	https://developer.android.com/about/start.html
+
+Bibliotecas muito interessantes:
+	1- (Material Dialog)      https://github.com/afollestad/material-dialogs 
+	2- (Alerts dialogs)       https://github.com/pedant/sweet-alert-dialog
+	3- (Ideias de interfaces) https://github.com/wasabeef/awesome-android-ui
