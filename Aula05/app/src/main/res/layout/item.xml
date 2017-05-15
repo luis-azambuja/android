@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageViewAvatar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/ronaldinho_perfil"
+        android:layout_margin="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/imageViewAvatar"
+        android:layout_toRightOf="@+id/imageViewAvatar"
+        android:layout_toLeftOf="@+id/imageButton"
+        android:gravity="center_vertical"
+        android:text="Ronaldinho"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textAllCaps="false"
+        android:textStyle="bold"/>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+
+        android:scaleType="fitCenter"
+        android:layout_margin="15dp"
+
+        android:background="@color/transparent"
+
+        app:srcCompat="@drawable/more"
+
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+
+        android:layout_below="@+id/imageViewAvatar"
+
+        android:scaleType="centerCrop"
+
+        app:srcCompat="@drawable/ronaldinho_imagem" />
+
+    <ImageButton
+        android:id="@+id/imageViewLove"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:srcCompat="@drawable/love"
+
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+
+        android:background="@color/transparent"
+        android:scaleType="fitCenter"
+
+        android:layout_below="@+id/imageView3"/>
+
+    <ImageButton
+        android:id="@+id/imageViewResponse"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:srcCompat="@drawable/response"
+
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+
+        android:background="@color/transparent"
+        android:scaleType="fitCenter"
+
+        android:layout_below="@+id/imageView3"
+        android:layout_toRightOf="@id/imageViewLove"/>
+
+    <ImageButton
+        android:id="@+id/imageViewShare"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        app:srcCompat="@drawable/resp"
+
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+
+        android:background="@color/transparent"
+        android:scaleType="fitCenter"
+
+        android:layout_below="@+id/imageView3"
+        android:layout_toRightOf="@id/imageViewResponse"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageViewLove"
+        android:layout_alignStart="@+id/imageViewLove"
+        android:layout_below="@+id/imageViewLove"
+        android:layout_margin="5dp"
+        android:text="Dibrei" />
+</RelativeLayout>
