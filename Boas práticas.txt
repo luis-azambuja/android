@@ -2,6 +2,9 @@ Android Studio
 
 	Baixar pluggin -> Android Drawable Importer (Settings->Plugins->Browse)
 
+Google Play Services
+	SDK Manager > SDK Tools > Google play services
+
 Layouts
 	ViewGroup
 
@@ -30,3 +33,4 @@ Bibliotecas muito interessantes:
 	7- (AsyncTask)	          http://www.devmedia.com.br/trabalhando-com-asynctask-no-android/33481
 	8- (Firebase)		  https://firebase.google.com/pricing/?hl=pt-br
 	9- (Solicitar conexão com internet) https://developer.android.com/training/basics/network-ops/connecting.html#security
+
