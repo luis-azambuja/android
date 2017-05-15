@@ -26,3 +26,7 @@ Bibliotecas muito interessantes:
 	3- (Ideias de interfaces) https://github.com/wasabeef/awesome-android-ui	
 	4- (ListView)		  https://guides.codepath.com/android/Using-an-ArrayAdapter-with-ListView
 	5- (Imagens circulares)   https://github.com/hdodenhof/CircleImageView
+	6- (Okhttp)	     	  http://square.github.io/okhttp/
+	7- (AsyncTask)	          http://www.devmedia.com.br/trabalhando-com-asynctask-no-android/33481
+	8- (Firebase)		  https://firebase.google.com/pricing/?hl=pt-br
+	9- (Solicitar conexão com internet) https://developer.android.com/training/basics/network-ops/connecting.html#security

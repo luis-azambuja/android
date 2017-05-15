@@ -110,6 +110,7 @@ public class CustomAdapter extends ArrayAdapter<Item>{
             convertView = inflater.inflate(R.layout.item, parent, false);
 
             viewHolder.setName((TextView) convertView.findViewById(R.id.textViewName));
+            viewHolder.setPhoto((ImageView) convertView.findViewById(R.id.imageView3));
             viewHolder.setButton((ImageButton) convertView.findViewById(R.id.imageButton) );
             // Cache the viewHolder object inside the fresh view
             convertView.setTag(viewHolder);
