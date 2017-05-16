@@ -1,8 +1,10 @@
 package app.com.aula06;
 
 import android.graphics.Bitmap;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
@@ -27,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     DatabaseReference reference;
 
     // View
-    ImageView imageViewAvatar, imageViewPerfil;
+    ImageView imageViewInstagram, imageViewMailBox, imageViewAvatar, imageViewPerfil;
     TextView textViewAvatar1, textViewAvatar2, textViewRodape1, textViewRodape2;
 
     // UserList
@@ -37,6 +39,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // ConfigureApp
+        configureApp();
+
         // DataBase
         this.configureDataBase();
 
@@ -45,6 +50,17 @@ public class MainActivity extends AppCompatActivity {
 
         // Popula a lista de User
         this.setUser();
+
+        // Cria a fragment
+        //this.createNewFragment();
+    }
+
+    private void configureApp(){
+        imageViewInstagram = (ImageView) findViewById(R.id.imageViewInstagram);
+        imageViewMailBox = (ImageView) findViewById(R.id.imageViewMailBox);
+
+        downloadImage(imageViewInstagram, null, "http://www.radicalselfie.com/execumama/wp-content/uploads/2010/02/instagram-new-logo.png");
+        downloadImage(imageViewMailBox, null, "https://www.shareicon.net/download/2017/04/13/883870_email_512x512.png");
     }
 
     private void configureDataBase(){
@@ -110,5 +126,16 @@ public class MainActivity extends AppCompatActivity {
                         url);
 
         downloadImage.execute();
+    }
+
+    private void createNewFragment(){
+        FragmentView fragmentView = new FragmentView();
+        FragmentManager fragmentManager = this.getSupportFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+
+        //fragmentTransaction.add(R.id., fragmentView);
+        fragmentTransaction.addToBackStack(null);
+        fragmentTransaction.commit();
+
     }
 }
