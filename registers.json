@@ -1,0 +1,195 @@
+{  
+   "results":[  
+      {  
+         "gender":"female",
+         "name":{  
+            "title":"miss",
+            "first":"savannah",
+            "last":"williams"
+         },
+         "location":{  
+            "street":"6443 beach road",
+            "city":"blenheim",
+            "state":"nelson",
+            "postcode":27218
+         },
+         "email":"savannah.williams@example.com",
+         "login":{  
+            "username":"beautifulmeercat800",
+            "password":"milfnew",
+            "salt":"Mlt1s3ee",
+            "md5":"e664cb078643568f00c660478a84333c",
+            "sha1":"52545774d0f94740545f902ab5feac48357189a9",
+            "sha256":"f95f878f53d9e40c658acabfbf98950641ec59947455d40a44255f5fc9331909"
+         },
+         "dob":"1981-03-21 05:53:07",
+         "registered":"2005-03-05 08:36:50",
+         "phone":"(458)-476-5584",
+         "cell":"(440)-323-6111",
+         "id":{  
+            "name":"",
+            "value":null
+         },
+         "picture":{  
+            "large":"https://randomuser.me/api/portraits/women/46.jpg",
+            "medium":"https://randomuser.me/api/portraits/med/women/46.jpg",
+            "thumbnail":"https://randomuser.me/api/portraits/thumb/women/46.jpg"
+         },
+         "nat":"NZ"
+      },
+      {  
+         "gender":"male",
+         "name":{  
+            "title":"mr",
+            "first":"david",
+            "last":"roberts"
+         },
+         "location":{  
+            "street":"9090 victoria avenue",
+            "city":"lower hutt",
+            "state":"marlborough",
+            "postcode":43248
+         },
+         "email":"david.roberts@example.com",
+         "login":{  
+            "username":"crazylion796",
+            "password":"qian",
+            "salt":"VmO70f20",
+            "md5":"4cf6ec439c3bea6372ba2b189aac3393",
+            "sha1":"251e2a404225fbd480befb0543b27fbeae6dce05",
+            "sha256":"caab19053619616eb8e15352aa807ba7b5798916805e57db1a87d369d295cf52"
+         },
+         "dob":"1958-01-14 19:26:31",
+         "registered":"2003-12-18 14:31:15",
+         "phone":"(267)-371-8353",
+         "cell":"(130)-863-6055",
+         "id":{  
+            "name":"",
+            "value":null
+         },
+         "picture":{  
+            "large":"https://randomuser.me/api/portraits/men/54.jpg",
+            "medium":"https://randomuser.me/api/portraits/med/men/54.jpg",
+            "thumbnail":"https://randomuser.me/api/portraits/thumb/men/54.jpg"
+         },
+         "nat":"NZ"
+      },
+      {  
+         "gender":"female",
+         "name":{  
+            "title":"miss",
+            "first":"ثنا",
+            "last":"زارعی"
+         },
+         "location":{  
+            "street":"8674 دیباجی",
+            "city":"گرگان",
+            "state":"گیلان",
+            "postcode":98345
+         },
+         "email":"ثنا.زارعی@example.com",
+         "login":{  
+            "username":"organicwolf689",
+            "password":"jumper",
+            "salt":"AT0BiuZh",
+            "md5":"86b66ced4205611541233cca1213fbf6",
+            "sha1":"131d78541a703d2e384dcc1c2f77664db6296caf",
+            "sha256":"0df101e9771fe21c48ef305d73c45f3d04d69945fb73a5986d6522937d93265f"
+         },
+         "dob":"1964-07-11 02:42:49",
+         "registered":"2009-03-04 08:14:49",
+         "phone":"031-40382124",
+         "cell":"0931-255-0305",
+         "id":{  
+            "name":"",
+            "value":null
+         },
+         "picture":{  
+            "large":"https://randomuser.me/api/portraits/women/32.jpg",
+            "medium":"https://randomuser.me/api/portraits/med/women/32.jpg",
+            "thumbnail":"https://randomuser.me/api/portraits/thumb/women/32.jpg"
+         },
+         "nat":"IR"
+      },
+      {  
+         "gender":"female",
+         "name":{  
+            "title":"mrs",
+            "first":"sanni",
+            "last":"valli"
+         },
+         "location":{  
+            "street":"1412 mannerheimintie",
+            "city":"kotka",
+            "state":"pirkanmaa",
+            "postcode":14566
+         },
+         "email":"sanni.valli@example.com",
+         "login":{  
+            "username":"bluefish721",
+            "password":"bingo1",
+            "salt":"PsxjqJY8",
+            "md5":"18a0a4c8204cdc87b405a54b398caa25",
+            "sha1":"a9dc0c3b6144727d63540a9f519e33455fe32596",
+            "sha256":"33ca9691b4bc9fe34bc696c976ac95a7de4a9f2b3ccdd5374ac7e8a30e26aabf"
+         },
+         "dob":"1965-09-01 07:07:57",
+         "registered":"2009-04-17 02:40:48",
+         "phone":"04-308-554",
+         "cell":"049-067-42-34",
+         "id":{  
+            "name":"HETU",
+            "value":"1165-506Y"
+         },
+         "picture":{  
+            "large":"https://randomuser.me/api/portraits/women/54.jpg",
+            "medium":"https://randomuser.me/api/portraits/med/women/54.jpg",
+            "thumbnail":"https://randomuser.me/api/portraits/thumb/women/54.jpg"
+         },
+         "nat":"FI"
+      },
+      {  
+         "gender":"male",
+         "name":{  
+            "title":"mr",
+            "first":"matt",
+            "last":"rogers"
+         },
+         "location":{  
+            "street":"7611 church lane",
+            "city":"letterkenny",
+            "state":"galway city",
+            "postcode":40085
+         },
+         "email":"matt.rogers@example.com",
+         "login":{  
+            "username":"beautifulladybug942",
+            "password":"wolfpac",
+            "salt":"Lt0Sy6s3",
+            "md5":"1bcf55d70f1dfa8879d18553ddd96d04",
+            "sha1":"9c307a25e4eca57d05b158784b608f2742357370",
+            "sha256":"7178c14da9f1aae6c7518eb6b74455a1d3f0e5bdd3ec712897defdad1d93894a"
+         },
+         "dob":"1968-11-04 23:07:38",
+         "registered":"2010-04-13 14:50:58",
+         "phone":"031-112-9364",
+         "cell":"081-093-8165",
+         "id":{  
+            "name":"PPS",
+            "value":"1171120T"
+         },
+         "picture":{  
+            "large":"https://randomuser.me/api/portraits/men/74.jpg",
+            "medium":"https://randomuser.me/api/portraits/med/men/74.jpg",
+            "thumbnail":"https://randomuser.me/api/portraits/thumb/men/74.jpg"
+         },
+         "nat":"IE"
+      }
+   ],
+   "info":{  
+      "seed":"02f9ae7f6e5a1564",
+      "results":5,
+      "page":1,
+      "version":"1.1"
+   }
+}
