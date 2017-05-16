@@ -1,8 +1,10 @@
 package app.com.aula06;
 
+import android.graphics.Bitmap;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.google.firebase.database.DataSnapshot;
@@ -14,6 +16,8 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 
 import app.com.aula06.db.FireData;
+import app.com.aula06.downloadImage.DownloadImage;
+import app.com.aula06.downloadImage.DownloadListener;
 import app.com.aula06.entity.user.User;
 
 public class MainActivity extends AppCompatActivity {
@@ -39,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         // View
         this.inicializeObjectsView();
 
-        // User
+        // Popula a lista de User
         this.setUser();
     }
 
@@ -63,16 +67,16 @@ public class MainActivity extends AppCompatActivity {
         reference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                User user;
                 for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
                     list.add(snapshot.getValue(User.class));
                 }
 
-                textViewAvatar1.setText(list.get(0).getResults().get(0).getName().getFirst());
+                // Passa do user para a view
+                setView();
 
+                // Exemplos de uso do dataSnapshot
 //                for(int i = 0; i < dataSnapshot.getChildrenCount(); i++){ }
 //                textViewAvatar1.setText((String) dataSnapshot.child("0/").child("name/").child("first").getValue());
-                
             }
 
             @Override
@@ -80,5 +84,31 @@ public class MainActivity extends AppCompatActivity {
                 // TODO
             }
         });
+    }
+
+    private void setView(){
+        // Passa do user para a view
+        textViewAvatar1.setText(list.get(0).getName().getFirst());
+        textViewAvatar2.setText(list.get(0).getName().getLast());
+        downloadImage(imageViewAvatar, null, list.get(0).getPicture().getThumbnail());
+        downloadImage(imageViewPerfil, null, list.get(0).getPicture().getLarge());
+        textViewRodape1.setText(list.get(0).getEmail());
+        textViewRodape2.setText(list.get(0).getPhone());
+    }
+
+    private void downloadImage(final ImageView imageView, ProgressBar progressBar, String url){
+        DownloadImage downloadImage =
+                new DownloadImage(
+                        this,
+                        new DownloadListener(){
+                            @Override
+                            public void getImg(Bitmap bitmap) {
+                                imageView.setImageBitmap(bitmap);
+                            }
+                        },
+                        progressBar,
+                        url);
+
+        downloadImage.execute();
     }
 }
