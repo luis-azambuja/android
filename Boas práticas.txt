@@ -35,3 +35,5 @@ Bibliotecas muito interessantes:
 	9- (Solicitar conexão com internet) https://developer.android.com/training/basics/network-ops/connecting.html#security
 	10-(java from json)	  http://www.jsonschema2pojo.org/
 	11-(Scheduling Repeating Alarms) https://developer.android.com/training/scheduling/alarms.html
+	12-(Adding Maps) https://developer.android.com/training/maps/index.html
+		AIzaSyDSA9HIxBVb-o1DXLDtPM7-VPU5y5s6R9w

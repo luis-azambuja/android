@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "777900921879",
+    "firebase_url": "https://maps-sample-395ff.firebaseio.com",
+    "project_id": "maps-sample-395ff",
+    "storage_bucket": "maps-sample-395ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777900921879:android:551216e57dff7706",
+        "android_client_info": {
+          "package_name": "app.com.aula8_maps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "777900921879-c3e2orddhcfjk5hrf9s06ki1ag5h5ri5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+            "current_key": "AIzaSyCZfQRaIBn7R6ly7GyjVEQ6HWDAsD7gceE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
